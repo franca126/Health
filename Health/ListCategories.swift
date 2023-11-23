@@ -10,6 +10,7 @@ import SwiftUI
 class ListCategories {
     
     var categories: [Categories] = [
+        Categories (SystemName: Image(systemName: "wind"), name: "Smoke Tracker", color: .gray),
         Categories (SystemName: Image(systemName: "flame.fill"), name: "Activity", color: .activityCol),
         Categories (SystemName: Image(systemName:"figure"), name: "Body Measurements", color: .purple),
         Categories (SystemName: Image(systemName:"circle.dotted"), name: "Cycle Tracking", color: .orange),

@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E782C24F2B07B1F300F00BE4 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782C24E2B07B1F300F00BE4 /* Activity.swift */; };
-		E782C2552B0948F700F00BE4 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782C2542B0948F700F00BE4 /* HealthKitManager.swift */; };
-		E782C2572B094AE600F00BE4 /* HKM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782C2562B094AE600F00BE4 /* HKM.swift */; };
-		E782C2592B094B8700F00BE4 /* Contapassi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782C2582B094B8700F00BE4 /* Contapassi.swift */; };
+		E73345092B0BC03D0031295E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73345082B0BC03D0031295E /* ChartView.swift */; };
+		E73345212B0D5DA10031295E /* StepCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73345202B0D5DA10031295E /* StepCounter.swift */; };
+		E73345232B0D65510031295E /* StepCounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73345222B0D65510031295E /* StepCounterViewModel.swift */; };
+		E73345252B0D6CA90031295E /* StepCounterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73345242B0D6CA90031295E /* StepCounterData.swift */; };
+		E73345312B0EBE4C0031295E /* chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73345302B0EBE4C0031295E /* chart.swift */; };
+		E767B8F32B0F716100598B2D /* SmokeTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767B8F22B0F716100598B2D /* SmokeTrackerView.swift */; };
 		E782C25B2B0A9D8F00F00BE4 /* Activity1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782C25A2B0A9D8F00F00BE4 /* Activity1.swift */; };
 		E787EBF42B050BFB006E13C0 /* HealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787EBF32B050BFB006E13C0 /* HealthApp.swift */; };
 		E787EBF62B050BFB006E13C0 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787EBF52B050BFB006E13C0 /* BrowseView.swift */; };
@@ -21,11 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E782C24E2B07B1F300F00BE4 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		E73345082B0BC03D0031295E /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		E73345202B0D5DA10031295E /* StepCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounter.swift; sourceTree = "<group>"; };
+		E73345222B0D65510031295E /* StepCounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounterViewModel.swift; sourceTree = "<group>"; };
+		E73345242B0D6CA90031295E /* StepCounterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounterData.swift; sourceTree = "<group>"; };
+		E73345302B0EBE4C0031295E /* chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chart.swift; sourceTree = "<group>"; };
+		E767B8F22B0F716100598B2D /* SmokeTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokeTrackerView.swift; sourceTree = "<group>"; };
 		E782C2522B093F8C00F00BE4 /* Health.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Health.entitlements; sourceTree = "<group>"; };
-		E782C2542B0948F700F00BE4 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
-		E782C2562B094AE600F00BE4 /* HKM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKM.swift; sourceTree = "<group>"; };
-		E782C2582B094B8700F00BE4 /* Contapassi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contapassi.swift; sourceTree = "<group>"; };
 		E782C25A2B0A9D8F00F00BE4 /* Activity1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Activity1.swift; path = ../Activity1.swift; sourceTree = "<group>"; tabWidth = 7; };
 		E787EBF02B050BFB006E13C0 /* Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E787EBF32B050BFB006E13C0 /* HealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthApp.swift; sourceTree = "<group>"; };
@@ -50,9 +54,6 @@
 		E787EBE72B050BFB006E13C0 = {
 			isa = PBXGroup;
 			children = (
-				E782C2542B0948F700F00BE4 /* HealthKitManager.swift */,
-				E782C2562B094AE600F00BE4 /* HKM.swift */,
-				E782C2582B094B8700F00BE4 /* Contapassi.swift */,
 				E787EBF22B050BFB006E13C0 /* Health */,
 				E787EBF12B050BFB006E13C0 /* Products */,
 			);
@@ -76,8 +77,13 @@
 				E787EC012B050C48006E13C0 /* ListCategories.swift */,
 				E787EC062B050E39006E13C0 /* View */,
 				E787EBF52B050BFB006E13C0 /* BrowseView.swift */,
-				E782C24E2B07B1F300F00BE4 /* Activity.swift */,
 				E782C25A2B0A9D8F00F00BE4 /* Activity1.swift */,
+				E767B8F22B0F716100598B2D /* SmokeTrackerView.swift */,
+				E73345202B0D5DA10031295E /* StepCounter.swift */,
+				E73345222B0D65510031295E /* StepCounterViewModel.swift */,
+				E73345302B0EBE4C0031295E /* chart.swift */,
+				E73345242B0D6CA90031295E /* StepCounterData.swift */,
+				E73345082B0BC03D0031295E /* ChartView.swift */,
 				E787EBF72B050BFC006E13C0 /* Assets.xcassets */,
 				E787EBF92B050BFC006E13C0 /* Preview Content */,
 			);
@@ -176,14 +182,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E782C2592B094B8700F00BE4 /* Contapassi.swift in Sources */,
-				E782C24F2B07B1F300F00BE4 /* Activity.swift in Sources */,
+				E767B8F32B0F716100598B2D /* SmokeTrackerView.swift in Sources */,
 				E787EBF62B050BFB006E13C0 /* BrowseView.swift in Sources */,
-				E782C2572B094AE600F00BE4 /* HKM.swift in Sources */,
-				E782C2552B0948F700F00BE4 /* HealthKitManager.swift in Sources */,
+				E73345252B0D6CA90031295E /* StepCounterData.swift in Sources */,
+				E73345092B0BC03D0031295E /* ChartView.swift in Sources */,
 				E787EBF42B050BFB006E13C0 /* HealthApp.swift in Sources */,
+				E73345312B0EBE4C0031295E /* chart.swift in Sources */,
 				E782C25B2B0A9D8F00F00BE4 /* Activity1.swift in Sources */,
 				E787EC022B050C48006E13C0 /* ListCategories.swift in Sources */,
+				E73345232B0D65510031295E /* StepCounterViewModel.swift in Sources */,
+				E73345212B0D5DA10031295E /* StepCounter.swift in Sources */,
 				E787EC042B050C7E006E13C0 /* ListCategoriesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,11 +334,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow the app to access to your health info in order to access the features ";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app requires to access to motion data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,11 +372,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow the app to access to your health info in order to access the features ";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app requires to access to motion data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
